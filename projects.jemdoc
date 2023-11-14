@@ -1,0 +1,151 @@
+# jemdoc: menu{MENU}{projects.html}
+
+= Research
+~~~
+{}{img_left}{./images/Highest-K.png}{}{280px}{}{}
+== Highest-k Loss {{<div id="time">February 2023 - Present</div>}}
+=== A method maximizing predict precision for high-risk patients. 
+- Advisor: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
+- Tools: Python, Pandas, NumPy, TensorFlow, Slurm
+{{<a class="button" href="https://drive.google.com/file/d/1CwujOxKTeZgF-ZewaaptpH2wKKZ8_Wu2/view?usp=sharing" target="blank"><img src="images/PDF.png"> Paper</a>}}
+~~~
+
+~~~
+We focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1\% PPV by up to 10\% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been accepted by IEEE BIBM MABM 2023. Currently I am working on extending experiments to include more medical datasets and machine learning models. 
+~~~
+
+~~~
+{}{img_left}{./images/HF.png}{}{280px}{}{}
+== Heart Failure Prediction {{<div id="time">October 2021 - Present</div>}}
+=== Predicting heart failure onset with EHR and multimodal data.
+- Advisor: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
+- Tools: Python, Pandas, NumPy, Keras, Scikit-learn, Oracle, R, Slurm
+{{<a class="button" href="https://drive.google.com/file/d/1a1afrrograFr6uSa2T989rWMC-HX7wA6/view?usp=sharing" target="blank"><img src="images/PDF.png"> Abstract</a>}}
+~~~
+
+~~~
+We focus on predicting heart failure (HF) onset of high-risk patients with their electronic health record (EHR), heart rate variability (HRV), and electrocardiogram (ECG). I evaluated and analyzed existing heart failure risk models using Python and SHAP to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses. I also collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with Oracle SQL and Python to build retrospective cohorts of 60,000 patients. Currently I am working on building a recurrent neural network for longitudinal EHR data with missing values and helping improve the model identifying HF cases in EHR text.
+~~~
+
+~~~
+{}{img_left}{./images/MRI.png}{}{280px}{}{}
+== DL in CS-MRI {{<div id="time">November 2020 - August 2021</div>}}
+=== Exploring the applicatioin of deep learning in CS MRI.
+- Advisor: [https://sites.ji.sjtu.edu.cn/heng-qiao/ Prof. Heng Qiao]
+- Tools: MatLab, Julia 
+~~~
+
+~~~
+We explored the role of compressed sensing (CS) and deep learning (DL) in accelerated dynamic magnetic resonance imaging (MRI). I reproduced key results of state-of-art CS MRI reconstruction algorithms to verify their feasibility in real-world industrial applications. I proposed an approach to improve the Gibbs artifact reduction algorithm based on deep learning and local subvoxel shifts, which has been accepted by Neusoft Medical Systems in Shanghai and is under research by my groupmates.
+~~~
+
+= Projects
+~~~
+{}{img_left}{./images/insta485.png}{}{280px}{}{}
+== Instagram Simulator {{<div id="time">January - April 2023</div>}}
+=== An Instagram clone with client-side dynamic pages.
+- Tools: Python, Flask, SQLite, JavaScript, React, AWS
+~~~
+
+~~~
+We implemented an Instagram clone with client-side dynamic pages. I was responsible for building the frontend framework with React to support real-time updating of likes, comments, and post status, and deploying the clone on Amazon Web Services (AWS). We verified that the implemented clone is with high compatibility of concurrent requests and of slow server response.
+~~~
+
+~~~
+{}{img_left}{./images/CDN.png}{}{280px}{}{}
+== Video Streaming via CDN {{<div id="time">January - April 2023</div>}}
+=== A simulated video streaming content delivery network.
+- Tools: C/C\+\+
+~~~
+
+~~~
+We developed a video streaming content delivery network (CDN) architecture with web servers, HTTP proxies, and a DNS server based on TCP, supporting hundreds of simultaneous streaming sessions. I was responsible for building a HTTP proxy that accepts concurrent connections, selects adaptive bitrates, modifies video chunk requests, resolves server's DNS name, and forwards modified requests. We also implemented different DNS load balancing strategies and simulated the CDN in a virtual topology of 100\+ hosts and 100\+ switches in Mininet.
+~~~
+
+~~~
+{}{img_left}{./images/LLVM.png}{}{280px}{}{}
+== Software-pipelining in LLVM  {{<div id="time">September - December 2022</div>}}
+=== An LLVM 14 optimization pass.
+- Tools: C/C\+\+
+{{<a class="button" href="https://drive.google.com/file/d/1txFFFPR4on6gGXUx6L4HyeNoFpRaFYFF/view?usp=sharing" target="blank"><img src="images/PDF.png"> Slides</a>}}
+~~~
+
+~~~
+We implemented the software pipelining algorithm as an LLVM 14 optimization pass to reduce the runtime of loop structures up to 7% compared with un-optimized programs. I was responsible for improving the original design of the bookkeeping of live values to handle complex loop structures where operations from three or more loop iterations are scheduled in parallel in the loop kernel. 
+~~~
+
+
+~~~
+{}{img_left}{./images/MIPS.png}{}{280px}{}{}
+== MIPS R10K Out-of-Order Pipeline {{<div id="time">May - August 2022</div>}}
+=== An out-of-order RISC-V pipeline.
+- Tools: SystemVerilog
+~~~
+
+~~~
+We implemented an out-of-order RISC-V pipeline based on the MIPS R10K register renaming scheme. I was responsible for building a store queue to support concurrent IO requests to the same memory address and five function units to simultaneously execute two ALU instructions, a branch instruction, a memory-read instruction, and a memory-write instruction. The out-of-order pipeline can achieve an average of 1.99 clocks per instruction (CPI) on testbenches, improved by 0.4 compared with the baseline in-order pipeline.
+~~~
+
+~~~
+{}{img_left}{./images/RBot.png}{}{280px}{}{}
+== RBot {{<div id="time">July 2021 - July 2022</div>}}
+=== A QQ group chatbot for game Princess Connect! Re:Dive.
+- Tools: Python, SQLite, JavaScript, AWS
+{{<a class="button" href="https://github.com/RMYHY/RBot" target="blank"><img src="images/GitHub.png"> GitHub</a>}}
+~~~
+
+~~~
+RBot is a QQ (a Chinese instant messaging software) group chatbot with client-side web pages. I modified and integrated multiple chatbot framework to enable group members to update and check the in-game status through the web interface or chat messages, and to support 60 entertainment, chat, search, and management plug-ins. I had deployed it on AWS and Tencent Cloud to serve three QQ chat groups of 100\+ members for one year. 
+~~~
+
+~~~
+{}{img_left}{./images/reviews.png}{}{280px}{}{}
+== Identifying Helpful Reviews  {{<div id="time">January - April 2022</div>}}
+=== Predicting the helpfulness of Amazon product reviews.
+- Tools: Python, NumPy, PyTorch, Scikit-learn
+{{<a class="button" href="https://drive.google.com/file/d/1ju1Zn0WmruXTNAUIm79-eRqlIFZ0ic8Z/view?usp=sharing" target="blank"><img src="images/PDF.png"> Poster</a>}}
+~~~
+
+~~~
+We applied natural language processing (NLP) and machine learning techiniques to the Amazon reviews dataset to identify helpful reviews. I was responsible for extracting NLP features from review texts and evaluating models. By introducing imbalanced learning techiniques, we achieved 0.86 AUROC with an imbalanced XGBoost model, improved by 0.2 compared with other baseline models.
+~~~
+
+~~~
+{}{img_left}{./images/ColorSR.png}{}{280px}{}{}
+== User-Guided ColorSR  {{<div id="time">September - December 2021</div>}}
+=== An image colorization and super-resolution framework.
+- Tools: Python, NumPy, PyTorch
+{{<a class="button" href="https://drive.google.com/file/d/1i3r3O11nRpF5YYbOauEj46c41KhC5r2l/view?usp=sharing" target="blank"><img src="images/PDF.png"> Slides</a>}}
+~~~
+
+~~~
+We designed a flexible image processing framework containing an image colorization module and a super-resolution module to produce 3x to 8x upsampling high-definition color images from grayscale photos. I was responsible for implementing the overall framework for training, testing, and integrating the models. By introducing an user interface to allow users give hints to the colorization module, we improved the peak signal to noise ratio (PSNR) of it by 2.4dB, and generated high-resolution colorful images from black-and-white testing photos.
+~~~
+
+~~~
+{}{img_left}{./images/campus.png}{}{280px}{}{}
+== Crime Patterns in Ann Arbor  {{<div id="time">September - December 2021</div>}}
+=== A statistical analysis of crime patterns.
+- Tools: R
+~~~
+
+~~~
+I analyzed the temporal and geospatial distribution of crime events in Ann Arbor, and used hypothesis tests along with Monte Carlo, permutation techniques, and bootstrap methods to tested for common circular distribution of crimes. The analysis shown that crimes are 30% more likely to occur off-campus than on-campus in Ann Arbor, and the temporal distrributions of on-campus crimes and off-campus crimes are also significantly different.
+~~~
+
+
+~~~
+{}{img_left}{./images/FR.png}{}{280px}{}{}
+== Predicting Forward Returns {{<div id="time">September - December 2020</div>}}
+=== A model to help decision-making on crypto-trading.
+- Tools: R
+~~~
+
+~~~
+I analyzed the historical price series of three crypto currency with linear regression, k-nearest neighbors and principal component regression models and obtained an integrated model to predict the forward return of a crypto currency. The model achieved 6% rolling correlation with ground truth testing data and ranked 2nd place in a compeition of 130\+ participants.
+~~~
+
+
+
+
+

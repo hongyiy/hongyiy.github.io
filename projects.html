@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./images/pixel.jpg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&family=Oswald:wght@700&display=swap');
+</style>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title></title> --->
+<title>HONGYI YANG</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<a href="index.html">HONGYI YANG</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">MENU</div>
+<div class="menu-item"><a href="index.html">Resume</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Portfolio</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<h1>Research</h1>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/Highest-K.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Highest-k Loss <div id="time">February 2023 - Present</div></h2>
+<h3>A method maximizing predict precision for high-risk patients. </h3>
+<ul>
+<li><p>Advisor: <a href="https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd" target=&ldquo;blank&rdquo;>Dr. Sardar Ansari</a></p>
+</li>
+<li><p>Tools: Python, Pandas, NumPy, TensorFlow, Slurm</p>
+</li>
+</ul>
+<p><a class="button" href="https://drive.google.com/file/d/1CwujOxKTeZgF-ZewaaptpH2wKKZ8_Wu2/view?usp=sharing" target="blank"><img src="images/PDF.png"> Paper</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1% PPV by up to 10% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been accepted by IEEE BIBM MABM 2023. Currently I am working on extending experiments to include more medical datasets and machine learning models. </p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/HF.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Heart Failure Prediction <div id="time">October 2021 - Present</div></h2>
+<h3>Predicting heart failure onset with EHR and multimodal data.</h3>
+<ul>
+<li><p>Advisor: <a href="https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd" target=&ldquo;blank&rdquo;>Dr. Sardar Ansari</a></p>
+</li>
+<li><p>Tools: Python, Pandas, NumPy, Keras, Scikit-learn, Oracle, R, Slurm</p>
+</li>
+</ul>
+<p><a class="button" href="https://drive.google.com/file/d/1a1afrrograFr6uSa2T989rWMC-HX7wA6/view?usp=sharing" target="blank"><img src="images/PDF.png"> Abstract</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We focus on predicting heart failure (HF) onset of high-risk patients with their electronic health record (EHR), heart rate variability (HRV), and electrocardiogram (ECG). I evaluated and analyzed existing heart failure risk models using Python and SHAP to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses. I also collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with Oracle SQL and Python to build retrospective cohorts of 60,000 patients. Currently I am working on building a recurrent neural network for longitudinal EHR data with missing values and helping improve the model identifying HF cases in EHR text.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/MRI.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>DL in CS-MRI <div id="time">November 2020 - August 2021</div></h2>
+<h3>Exploring the applicatioin of deep learning in CS MRI.</h3>
+<ul>
+<li><p>Advisor: <a href="https://sites.ji.sjtu.edu.cn/heng-qiao/" target=&ldquo;blank&rdquo;>Prof. Heng Qiao</a></p>
+</li>
+<li><p>Tools: MatLab, Julia </p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We explored the role of compressed sensing (CS) and deep learning (DL) in accelerated dynamic magnetic resonance imaging (MRI). I reproduced key results of state-of-art CS MRI reconstruction algorithms to verify their feasibility in real-world industrial applications. I proposed an approach to improve the Gibbs artifact reduction algorithm based on deep learning and local subvoxel shifts, which has been accepted by Neusoft Medical Systems in Shanghai and is under research by my groupmates.</p>
+</div></div>
+<h1>Projects</h1>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/insta485.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Instagram Simulator <div id="time">January - April 2023</div></h2>
+<h3>An Instagram clone with client-side dynamic pages.</h3>
+<ul>
+<li><p>Tools: Python, Flask, SQLite, JavaScript, React, AWS</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We implemented an Instagram clone with client-side dynamic pages. I was responsible for building the frontend framework with React to support real-time updating of likes, comments, and post status, and deploying the clone on Amazon Web Services (AWS). We verified that the implemented clone is with high compatibility of concurrent requests and of slow server response.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/CDN.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Video Streaming via CDN <div id="time">January - April 2023</div></h2>
+<h3>A simulated video streaming content delivery network.</h3>
+<ul>
+<li><p>Tools: C/C++</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We developed a video streaming content delivery network (CDN) architecture with web servers, HTTP proxies, and a DNS server based on TCP, supporting hundreds of simultaneous streaming sessions. I was responsible for building a HTTP proxy that accepts concurrent connections, selects adaptive bitrates, modifies video chunk requests, resolves server's DNS name, and forwards modified requests. We also implemented different DNS load balancing strategies and simulated the CDN in a virtual topology of 100+ hosts and 100+ switches in Mininet.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/LLVM.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Software-pipelining in LLVM  <div id="time">September - December 2022</div></h2>
+<h3>An LLVM 14 optimization pass.</h3>
+<ul>
+<li><p>Tools: C/C++</p>
+</li>
+</ul>
+<p><a class="button" href="https://drive.google.com/file/d/1txFFFPR4on6gGXUx6L4HyeNoFpRaFYFF/view?usp=sharing" target="blank"><img src="images/PDF.png"> Slides</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We implemented the software pipelining algorithm as an LLVM 14 optimization pass to reduce the runtime of loop structures up to 7% compared with un-optimized programs. I was responsible for improving the original design of the bookkeeping of live values to handle complex loop structures where operations from three or more loop iterations are scheduled in parallel in the loop kernel. </p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/MIPS.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>MIPS R10K Out-of-Order Pipeline <div id="time">May - August 2022</div></h2>
+<h3>An out-of-order RISC-V pipeline.</h3>
+<ul>
+<li><p>Tools: SystemVerilog</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We implemented an out-of-order RISC-V pipeline based on the MIPS R10K register renaming scheme. I was responsible for building a store queue to support concurrent IO requests to the same memory address and five function units to simultaneously execute two ALU instructions, a branch instruction, a memory-read instruction, and a memory-write instruction. The out-of-order pipeline can achieve an average of 1.99 clocks per instruction (CPI) on testbenches, improved by 0.4 compared with the baseline in-order pipeline.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/RBot.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>RBot <div id="time">July 2021 - July 2022</div></h2>
+<h3>A QQ group chatbot for game Princess Connect! Re:Dive.</h3>
+<ul>
+<li><p>Tools: Python, SQLite, JavaScript, AWS</p>
+</li>
+</ul>
+<p><a class="button" href="https://github.com/RMYHY/RBot" target="blank"><img src="images/GitHub.png"> GitHub</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>RBot is a QQ (a Chinese instant messaging software) group chatbot with client-side web pages. I modified and integrated multiple chatbot framework to enable group members to update and check the in-game status through the web interface or chat messages, and to support 60 entertainment, chat, search, and management plug-ins. I had deployed it on AWS and Tencent Cloud to serve three QQ chat groups of 100+ members for one year. </p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/reviews.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Identifying Helpful Reviews  <div id="time">January - April 2022</div></h2>
+<h3>Predicting the helpfulness of Amazon product reviews.</h3>
+<ul>
+<li><p>Tools: Python, NumPy, PyTorch, Scikit-learn</p>
+</li>
+</ul>
+<p><a class="button" href="https://drive.google.com/file/d/1ju1Zn0WmruXTNAUIm79-eRqlIFZ0ic8Z/view?usp=sharing" target="blank"><img src="images/PDF.png"> Poster</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We applied natural language processing (NLP) and machine learning techiniques to the Amazon reviews dataset to identify helpful reviews. I was responsible for extracting NLP features from review texts and evaluating models. By introducing imbalanced learning techiniques, we achieved 0.86 AUROC with an imbalanced XGBoost model, improved by 0.2 compared with other baseline models.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/ColorSR.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>User-Guided ColorSR  <div id="time">September - December 2021</div></h2>
+<h3>An image colorization and super-resolution framework.</h3>
+<ul>
+<li><p>Tools: Python, NumPy, PyTorch</p>
+</li>
+</ul>
+<p><a class="button" href="https://drive.google.com/file/d/1i3r3O11nRpF5YYbOauEj46c41KhC5r2l/view?usp=sharing" target="blank"><img src="images/PDF.png"> Slides</a></p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>We designed a flexible image processing framework containing an image colorization module and a super-resolution module to produce 3x to 8x upsampling high-definition color images from grayscale photos. I was responsible for implementing the overall framework for training, testing, and integrating the models. By introducing an user interface to allow users give hints to the colorization module, we improved the peak signal to noise ratio (PSNR) of it by 2.4dB, and generated high-resolution colorful images from black-and-white testing photos.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/campus.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Crime Patterns in Ann Arbor  <div id="time">September - December 2021</div></h2>
+<h3>A statistical analysis of crime patterns.</h3>
+<ul>
+<li><p>Tools: R</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>I analyzed the temporal and geospatial distribution of crime events in Ann Arbor, and used hypothesis tests along with Monte Carlo, permutation techniques, and bootstrap methods to tested for common circular distribution of crimes. The analysis shown that crimes are 30% more likely to occur off-campus than on-campus in Ann Arbor, and the temporal distrributions of on-campus crimes and off-campus crimes are also significantly different.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/FR.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Predicting Forward Returns <div id="time">September - December 2020</div></h2>
+<h3>A model to help decision-making on crypto-trading.</h3>
+<ul>
+<li><p>Tools: R</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>I analyzed the historical price series of three crypto currency with linear regression, k-nearest neighbors and principal component regression models and obtained an integrated model to predict the forward return of a crypto currency. The model achieved 6% rolling correlation with ground truth testing data and ranked 2nd place in a compeition of 130+ participants.</p>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on November 14<sup>th</sup> 2023  07:24AM (Time Zone: 东部标准时间). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

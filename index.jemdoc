@@ -1,35 +1,117 @@
-==Hongyi Yang 
+# jemdoc: menu{MENU}{index.html}
 
 ~~~
-{}{img_left}{fig/bio.jpg}{100}{140}
-Junior, \n 
-[https://www.engin.umich.edu/ College of Engineering], \n
-[https://umich.edu/ University of Michigan] \n
-E-mail: hongyiy@umich.edu
-~~~
+{}{img_left}{./images/bio.jpg}{profile pic}{200px}{}{}
+= Hongyi Yang {{<a href="https://www.linkedin.com/in/hongyiy/" target="blank"><img src="images/linkedin.png" target="blank" width="20px" height="20px"></a> }} \n
+=== Ann Arbor, MI · hongyiy@umich.edu \n 
+=== US: \+1 (734) 546-8399 · CN: \+86 (186) 8816-3890  \n
+I am a 2nd-year master's student majoring in Computer Science and Engineering at the University of Michigan, and currently seeking job opportunities starting May 2024 in China or the United States.
 
-== About Me
-I am currently a Junior student in University of Michigan - Ann Arbor. 
-I was admitted to [https://www.ji.sjtu.edu.cn/ UM-SJTU Joint Institute], 
-[http://en.sjtu.edu.cn/ Shanghai Jiao Tong University] in 2018, 
-and transferred to [https://www.engin.umich.edu/ College of Engineering], 
-[https://umich.edu/ University of Michigan] in 2020.
+I have 2 years of experience in healthcare data science, focusing on data mining, data analysis, and applied machine learning.
+
+I obtained my dual Bachelor's degrees at Shanghai Jiao Tong University and the University of Michigan, majoring in Electrical & Computer Engineering and Data Science.
+~~~
 
 == Education
-- Bachelor of Science in Engineering | May 2022 (expected) | [https://umich.edu/ University of Michigan]
--- Major: Data Science
--- Cumulative GPA: 3.92/4.00.
+=== University of Michigan {{<div id="time">August 2022 - April 2024 (Expected)</div>}}
+Master of Science: Computer Science and Engineering
+- GPA: 4.00/4.00 (Honors: James B. Angell Scholar)
+- Courses: Artificial Intelligence in Biomedicine, Machine Learning in Computational Biology, Information Visualization, Web Systems, Computer Networks, Advanced Compilers, Randomness and Computation
 
-- Bachelor of Science | August 2022 (expected) | [http://en.sjtu.edu.cn/ Shanghai Jiao Tong University]
--- Major: Electrical and Computer Engineering
--- Cumulative GPA: 3.53/4.00.
+=== University of Michigan {{<div id="time">August 2020 - April 2022</div>}}
+Bachelor of Science in Engineering: Data Science
+- GPA: 3.98/4.00 (Honors: Summa Cum Laude, Dean’s List, University Honors)
+- Courses: Computer Architecture, Topics in Biostatistics, Mathematics of Data, Mathematical Modeling, Information Retrieval, Computational Methods in Statistics, Machine Learning, Computer Vision, Database Management System, Applied Regression Analysis, Computer Organization, Data Mining
 
-== Programing Skills
-C/C\+\+, R, SQL, MATLAB
+=== Shanghai Jiao Tong University {{<div id="time">September 2018 - August 2022</div>}}
+Bachelor of Science: Electrical and Computer Engineering
+- GPA: 3.55/4.00 (Honors: Honors Research Program)
 
-== Research Experience
-- VE490 - Undergraduate Research Course \n
-Topic: Compressed Sensing and Deep Learning in Dynamic Magnetic Resonance Imaging \n
-Research on deep learning based reconstruction in compressed sensing MRI under the guidance of Prof. [https://sites.ji.sjtu.edu.cn/heng-qiao/ Heng Qiao].
+== Experience
+=== Data Analyst {{<div id="time">October 2021 - Present</div>}}
+Max Harry Weil Institute for Critical Care Research and Innovation, University of Michigan
+- Evaluated and analyzed existing heart failure risk models using Python and SHAP to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses.
+- Collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with SQL and Python to build retrospective cohorts of 60,000 patients.
+- Formulated a top-k weighted loss method with a differentiable ranking operator for the TensorFlow training process and increased top-1\% precision by up to 10\% on different binary classification tasks.
 
-== Projects
+=== Student Research Assistant {{<div id="time">November 2020 - August 2021</div>}}
+UM-SJTU Joint Institute, Shanghai Jiao Tong University
+- Reproduced key results of state-of-art compressed-sensing magnetic resonance image reconstruction algorithms in MatLab to verify their feasibility in real-world industrial applications.
+- Proposed an approach to improve the magnetic resonance imaging Gibbs artifact reduction algorithm based on deep learning and local subvoxel shifts, accepted by Neusoft Medical Systems.
+
+== Skills
+{{
+<div id="skill-container">
+    <div id="skill">
+        <img src="images/Python.png"> Python
+    </div>
+    <div id="skill">
+        <img src="images/Pandas.png"> Pandas
+    </div>
+    <div id="skill">
+        <img src="images/NumPy.png"> NumPy
+    </div>
+    <div id="skill">
+        <img src="images/Keras.png"> Keras
+    </div>
+    <div id="skill">
+        <img src="images/TensorFlow.png"> TensorFlow
+    </div>
+    <div id="skill">
+        <img src="images/PyTorch.png"> PyTorch
+    </div>
+    <div id="skill">
+        <img src="images/Scikit-learn.png"> Scikit-learn
+    </div>
+    <div id="skill">
+        <img src="images/Flask.png"> Flask
+    </div>
+    <div id="skill">
+        <img src="images/SQLite.jpg"> SQLite
+    </div>
+    <div id="skill">
+        <img src="images/Oracle.png"> Oracle
+    </div>
+    <div id="skill">
+        <img src="images/JavaScript.png"> JavaScript
+    </div>
+    <div id="skill">
+        <img src="images/React.png"> React
+    </div>
+    <div id="skill">
+        <img src="images/C++.png"> C/C++
+    </div>
+    <div id="skill">
+        <img src="images/R.jpg"> R
+    </div>
+    <div id="skill">
+        <img src="images/MatLab.jpg"> MatLab
+    </div>
+    <div id="skill">
+        <img src="images/Git.png"> Git
+    </div>
+    <div id="skill">
+        <img src="images/Slurm.png"> Slurm
+    </div>
+    <div id="skill">
+        <img src="images/AWS.jpg"> AWS
+    </div>
+    <div id="skill">
+        <img src="images/Julia.png"> Julia
+    </div>
+    <div id="skill">
+        <img src="images/SystemVerilog.png"> SystemVerilog
+    </div>
+</div>
+}}
+
+== Publications
+H. Yang, R. Gonzalez, B. K. Nallamothu, K. D. Aaronson, K. R. Ward, A. O. Hero, and S. Ansari, "A Practical Approach to Disease Risk Prediction: Focus on High-Risk Patients via Highest-k Loss," 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) - Workshop on Machine Learning and Artificial Intelligence in Bioinformatics and Medical Informatics (MABM 2023), Accepted.
+
+== Resume PDF
+{{
+    <div>
+        <a class="button" href="https://drive.google.com/file/d/15or6FsPZ6nOly5VeLZIa3PtcjHbb0Txl/view?usp=sharing" target="blank"><img src="images/PDF.png"> Resume English</a>
+        <a class="button" href="https://drive.google.com/file/d/10YR1cXDA2hYhkqpQPtsruBj8_cZeXIHz/view?usp=sharing" target="blank"><img src="images/PDF.png"> Resume Chinese</a>
+    </div>
+}}
