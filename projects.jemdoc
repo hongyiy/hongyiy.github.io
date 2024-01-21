@@ -7,11 +7,11 @@
 === A method maximizing predict precision for high-risk patients. 
 - Advisor: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
 - Tools: Python, Pandas, NumPy, TensorFlow, Slurm
-{{<a class="button" href="https://drive.google.com/file/d/1CwujOxKTeZgF-ZewaaptpH2wKKZ8_Wu2/view?usp=sharing" target="blank"><img src="images/PDF.png"> Paper</a>}}
+{{<a class="button" href="https://drive.google.com/file/d/1S6IS8yepgYSSLK5pHU17qzJf3HtJwZqg/view?usp=sharing" target="blank"><img src="images/PDF.png"> Paper</a>}}
 ~~~
 
 ~~~
-I focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1\% PPV by up to 10\% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been accepted by IEEE BIBM MABM 2023. Currently I am working on extending experiments to include more medical datasets and machine learning models. 
+I focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1\% PPV by up to 10\% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been published at IEEE BIBM 2023. Currently I am working on extending experiments to include more medical datasets and machine learning models. 
 ~~~
 
 ~~~
