@@ -13,10 +13,10 @@ I obtained my dual Bachelor's degrees at Shanghai Jiao Tong University and the U
 ~~~
 
 == Education
-=== University of Michigan {{<div id="time">August 2022 - April 2024 (Expected)</div>}}
+=== University of Michigan {{<div id="time">August 2022 - April 2024</div>}}
 Master of Science: Computer Science and Engineering
 - GPA: 4.00/4.00 (Honors: James B. Angell Scholar)
-- Courses: Artificial Intelligence in Biomedicine, Machine Learning in Computational Biology, Information Visualization, Web Systems, Computer Networks, Advanced Compilers, Randomness and Computation
+- Courses: Foundations of Artificial Intelligence, Artificial Intelligence in Biomedicine, Machine Learning in Computational Biology, Information Visualization, Web Systems, Computer Networks, Advanced Compilers, Randomness and Computation
 
 === University of Michigan {{<div id="time">August 2020 - April 2022</div>}}
 Bachelor of Science in Engineering: Data Science
@@ -28,7 +28,7 @@ Bachelor of Science: Electrical and Computer Engineering
 - GPA: 3.55/4.00 (Honors: Honors Research Program)
 
 == Experience
-=== Data Analyst {{<div id="time">October 2021 - Present</div>}}
+=== Data Analyst {{<div id="time">September 2022 - Present</div>}}
 Max Harry Weil Institute for Critical Care Research and Innovation, University of Michigan
 - Evaluated and analyzed existing heart failure risk models using Python and SHAP to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses.
 - Collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with SQL and Python to build retrospective cohorts of 60,000 patients.
@@ -112,6 +112,5 @@ H. Yang et al., "A Practical Approach to Disease Risk Prediction: Focus on High-
 {{
     <div>
         <a class="button" href="https://drive.google.com/file/d/15or6FsPZ6nOly5VeLZIa3PtcjHbb0Txl/view?usp=sharing" target="blank"><img src="images/PDF.png"> Resume English</a>
-        <a class="button" href="https://drive.google.com/file/d/10YR1cXDA2hYhkqpQPtsruBj8_cZeXIHz/view?usp=sharing" target="blank"><img src="images/PDF.png"> Resume Chinese</a>
     </div>
 }}
