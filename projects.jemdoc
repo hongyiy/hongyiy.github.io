@@ -5,26 +5,26 @@
 {}{img_left}{./images/Highest-K.png}{}{280px}{}{}
 == Highest-k Loss {{<div id="time">February 2023 - Present</div>}}
 === A method maximizing predict precision for high-risk patients. 
-- Advisor: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
+- Principal Investigator: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
 - Tools: Python, Pandas, NumPy, TensorFlow, Slurm
 {{<a class="button" href="https://drive.google.com/file/d/1S6IS8yepgYSSLK5pHU17qzJf3HtJwZqg/view?usp=sharing" target="blank"><img src="images/PDF.png"> Paper</a>}}
 ~~~
 
 ~~~
-I focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1\% PPV by up to 10\% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been published at IEEE BIBM 2023. Currently I am working on extending experiments to include more medical datasets and machine learning models. 
+I focus on improving the positive predictive value (PPV) on high-risk patients of disease risk models to enhance their applicative practicability when medical resouces are limited. I implemented a top-k weighted loss function with a differentiable ranking operator to improve the PPV for top k patients with highest risks (Highest-k PPV). Experiments have shown that the proposed method can improve Highest-1\% PPV by up to 10\% on medical and non-medical binary predicting tasks, compared with traditional binary cross entropy loss. Our first paper has been published at IEEE BIBM 2023.
 ~~~
 
 ~~~
 {}{img_left}{./images/HF.png}{}{280px}{}{}
-== Heart Failure Prediction {{<div id="time">October 2021 - Present</div>}}
+== Heart Failure Prediction {{<div id="time">September 2022 - Present</div>}}
 === Predicting heart failure onset with EHR and multimodal data.
-- Advisor: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
+- Principal Investigator: [https://medicine.umich.edu/dept/emergency-medicine/sardar-ansari-phd Dr. Sardar Ansari]
 - Tools: Python, Pandas, NumPy, Keras, Scikit-learn, Oracle, R, Slurm
 {{<a class="button" href="https://drive.google.com/file/d/1a1afrrograFr6uSa2T989rWMC-HX7wA6/view?usp=sharing" target="blank"><img src="images/PDF.png"> Abstract</a>}}
 ~~~
 
 ~~~
-I focus on predicting heart failure (HF) onset of high-risk patients with their electronic health record (EHR), heart rate variability (HRV), and electrocardiogram (ECG). I evaluated and analyzed existing heart failure risk models using Python and SHAP to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses. I also collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with Oracle SQL and Python to build retrospective cohorts of 60,000 patients. Currently I am working on building a recurrent neural network for longitudinal EHR data with missing values and helping improve the model identifying HF cases in EHR text.
+I focus on predicting heart failure (HF) onset of high-risk patients with their electronic health record (EHR), heart rate variability (HRV), and electrocardiogram (ECG). I evaluated and analyzed existing heart failure risk models using Python to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses. I also collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with Oracle SQL and Python to build retrospective cohorts of 60,000 patients.
 ~~~
 
 ~~~
