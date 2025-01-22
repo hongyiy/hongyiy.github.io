@@ -22,6 +22,11 @@ Max Harry Weil Institute for Critical Care Research and Innovation, University o
 - Collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with SQL and Python to build retrospective cohorts of 60,000 patients.
 - Formulated a top-k weighted loss method with a differentiable ranking operator for supervised learning and increased top-1\% precision by up to 10\% on different binary classification tasks.
 
+=== Student Research Assistant {{<div id="time">November 2020 - August 2021</div>}}
+UM-SJTU Joint Institute, Shanghai Jiao Tong University
+- Reproduced key results of state-of-art compressed-sensing magnetic resonance image reconstruction algorithms in MatLab to verify their feasibility in real-world industrial applications.
+- Proposed an approach to improve the magnetic resonance imaging Gibbs artifact reduction algorithm based on deep learning and local subvoxel shifts, accepted by Neusoft Medical Systems.
+
 == Education
 === University of Michigan {{<div id="time">August 2022 - April 2024</div>}}
 Master of Science: Computer Science and Engineering
@@ -36,11 +41,6 @@ Bachelor of Science in Engineering: Data Science
 === Shanghai Jiao Tong University {{<div id="time">September 2018 - August 2022</div>}}
 Bachelor of Science: Electrical and Computer Engineering
 - GPA: 3.55/4.00 (Honors Research Program)
-
-=== Student Research Assistant {{<div id="time">November 2020 - August 2021</div>}}
-UM-SJTU Joint Institute, Shanghai Jiao Tong University
-- Reproduced key results of state-of-art compressed-sensing magnetic resonance image reconstruction algorithms in MatLab to verify their feasibility in real-world industrial applications.
-- Proposed an approach to improve the magnetic resonance imaging Gibbs artifact reduction algorithm based on deep learning and local subvoxel shifts, accepted by Neusoft Medical Systems.
 
 == Skills
 {{
