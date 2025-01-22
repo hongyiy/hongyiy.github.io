@@ -5,9 +5,9 @@
 = Hongyi Yang {{<a href="https://www.linkedin.com/in/hongyiy/" target="blank"><img src="images/linkedin.png" target="blank" width="20px" height="20px"></a> }} \n
 === Ann Arbor, MI · hongyiy@umich.edu \n 
 === US: \+1 (734) 546-8399 · CN: \+86 (186) 8816-3890  \n
-I am a full-time data analyst at the Weil Institute for Critical Care Research & Innovation at the University of Michigan. 
+I am a full-time data scientist at the Weil Institute for Critical Care Research & Innovation at the University of Michigan. 
 
-I have 2 years of experience in healthcare data science, focusing on data mining, data analysis, and applied machine learning.
+I have 3 years of experience in healthcare data science, focusing on data mining, data analysis, and applied machine learning.
 
 I obtained my Master's degree in Computer Science at the University of Michigan, and dual Bachelor's degrees at Shanghai Jiao Tong University and the University of Michigan, majoring in Electrical & Computer Engineering and Data Science.
 ~~~
@@ -28,7 +28,10 @@ Bachelor of Science: Electrical and Computer Engineering
 - GPA: 3.55/4.00 (Honors Research Program)
 
 == Experience
-=== Data Analyst {{<div id="time">September 2022 - Present</div>}}
+=== Data Scientist Intermediate {{<div id="time">May 2024 - Present</div>}}
+Max Harry Weil Institute for Critical Care Research and Innovation, University of Michigan
+
+=== Student Research Assistant {{<div id="time">September 2022 - April 2024</div>}}
 Max Harry Weil Institute for Critical Care Research and Innovation, University of Michigan
 - Evaluated and analyzed existing heart failure risk models using Python to help identify important heart failure predictor variables from thousands of lab measurements and medical diagnoses.
 - Collaborated with cardiologists to determine predictor variables and processed more than 10 million electronic health records with SQL and Python to build retrospective cohorts of 60,000 patients.
